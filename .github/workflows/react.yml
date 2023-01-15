@@ -1,4 +1,4 @@
-name: 🚀 React Catur Pamungkas CI/CD
+name: 🚀 React chesspamungkas.com CI/CD
 
 on:
     push:
@@ -46,6 +46,7 @@ jobs:
             server: ${{ secrets.FTP_HOST }}
             username: ${{ secrets.FTP_USER }}
             password: ${{ secrets.FTP_PASSWORD }}
+            server-dir: ${{ secrets.SERVERDIR }}
             exclude: |
                 **/.github/**
                 **/.git/**
