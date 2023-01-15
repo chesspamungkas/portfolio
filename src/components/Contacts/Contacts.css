@@ -10,9 +10,10 @@
 
 .contacts--img {
     position: absolute;
-    right: 30px;
+    top: 55px;
+    right: 11rem;
     /* bottom: 10px; */
-    width: 380px;
+    width: 500px;
     pointer-events: none;
 }
 
@@ -64,7 +65,6 @@
     width: 100%;
 }
 
-
 .form-input {
     height: 50px;
     box-sizing: border-box;
@@ -77,8 +77,6 @@
     resize: none;
 }
 
-
-
 .form-message {
     height: 150px;
     box-sizing: border-box;
@@ -90,8 +88,6 @@
     width: 100%;
     resize: none;
 }
-
-
 
 .submit-btn button {
     border: none;
@@ -137,10 +133,9 @@
     flex: 1;
     box-sizing: border-box;
     padding-left: 7rem;
+    padding-right: 7rem;
     margin-top: 1.2rem;
 }
-
-
 
 .personal-details {
     display: flex;
@@ -162,7 +157,7 @@
 }
 
 .socialmedia-icons {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;

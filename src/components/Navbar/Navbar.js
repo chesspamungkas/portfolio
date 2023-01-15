@@ -137,7 +137,7 @@ function Navbar() {
         <div className='navbar'>
             <div  className='navbar--container'>
                 <h1 style={{ color: theme.secondary }}>
-                    {shortname(headerData.name)}
+                    {headerData.name}
                 </h1>
 
                 <IoMenuSharp
@@ -215,7 +215,7 @@ function Navbar() {
                             </NavLink>
                         </Fade>
 
-                        <Fade left>
+                        {/* <Fade left>
                             <NavLink
                                 to='/#education'
                                 smooth={true}
@@ -231,7 +231,7 @@ function Navbar() {
                                     </span>
                                 </div>
                             </NavLink>
-                        </Fade>
+                        </Fade> */}
 
                         <Fade left>
                             <NavLink

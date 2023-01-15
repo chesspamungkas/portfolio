@@ -15,9 +15,9 @@ function Main() {
             <Landing />
             <About />
             <Skills />
-            <Education />            
+            {/* <Education />         */}
             <Projects />
-            <Achievement />
+            {/* <Achievement /> */}
             {/* <Blog /> */}
             <Contacts />
             {/* <Footer /> */}

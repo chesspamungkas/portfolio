@@ -15,6 +15,8 @@ function About() {
               <div className="style-circle" style={{backgroundColor: theme.primary}}></div>
               <div className="style-circle" style={{backgroundColor: theme.primary}}></div>
               <div className="style-line" style={{backgroundColor: theme.primary}}></div>
+              <div className="style-circle" style={{backgroundColor: theme.primary}}></div>
+              <div className="style-circle" style={{backgroundColor: theme.primary}}></div>
             </div>
             <div className="about-body">
                 <div className="about-description">

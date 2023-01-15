@@ -74,7 +74,25 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
-
+import laravel from '../assets/svg/skills/laravel.svg'
+import codeigniter from '../assets/svg/skills/codeigniter.svg'
+import jquery from '../assets/svg/skills/jquery.svg'
+import typeorm from '../assets/svg/skills/typeorm.svg'
+import nodejs from '../assets/svg/skills/nodejs.svg'
+import restapi from '../assets/svg/skills/restapi.svg'
+import sass from '../assets/svg/skills/sass.svg'
+import lumen from '../assets/svg/skills/lumen.svg'
+import json from '../assets/svg/skills/json.svg'
+import pm2 from '../assets/svg/skills/pm2.svg'
+import subversion from '../assets/svg/skills/subversion.svg'
+import windowsserver from '../assets/svg/skills/windows-server.svg'
+import iis from '../assets/svg/skills/microsoft-iis.svg'
+import ubuntu from '../assets/svg/skills/ubuntu.svg'
+import trello from '../assets/svg/skills/trello.svg'
+import freshdesk from '../assets/svg/skills/freshdesk.svg'
+import sqlserver from '../assets/svg/skills/sql-server.svg'
+import ajax from '../assets/svg/skills/ajax.svg'
+import jira from '../assets/svg/skills/jira.svg'
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
@@ -227,6 +245,44 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'laravel':
+            return laravel;
+        case 'codeigniter':
+            return codeigniter;
+        case 'jquery':
+            return jquery;
+        case 'typeorm':
+            return typeorm;
+        case 'nodejs':
+            return nodejs;
+        case 'restapi':
+            return restapi;
+        case 'sass':
+            return sass;
+        case 'lumen':
+            return lumen;
+        case 'json':
+            return json;
+        case 'pm2':
+            return pm2;
+        case 'subversion':
+            return subversion;
+        case 'windowsserver':
+            return windowsserver;
+        case 'iis':
+            return iis;
+        case 'ubuntu':
+            return ubuntu;
+        case 'trello':
+            return trello;
+        case 'freshdesk':
+            return freshdesk;
+        case 'sqlserver':
+            return sqlserver;
+        case 'ajax':
+            return ajax;
+        case 'jira':
+            return jira;
         default:
             break;
     }
