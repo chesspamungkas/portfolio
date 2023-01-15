@@ -13,10 +13,10 @@ export const projectsData = [
         id: 1,
         projectName: 'Website Profile Catur Pamungkas',
         projectDesc: 'This is my website profile. I have a fullstack role in this website using React.js',
-        tags: ['React', 'HTML' ,'CSS', 'JavaScript'],
-        code: 'https://github.com/chesspamungkas',
+        tags: ['React', 'Material UI', 'HTML' ,'CSS', 'JavaScript'],
+        code: 'https://github.com/chesspamungkas/chesspamungkas.com',
         demo: 'https://chesspamungkas.com',
-        image: "https://chesspamungkas.com/chesspamungkas.com.png"
+        image: "https://chesspamungkas.com/src/assets/png/projects/chesspamungkas.com.png"
     },
     {
         id: 2,
@@ -25,7 +25,7 @@ export const projectsData = [
         tags: ['PHP', 'Laravel', 'HTML', 'CSS', 'Javascript', 'MySQL'],
         code: 'https://github.com/chesspamungkas/pavelahomeliving',
         demo: 'https://pavelahomeliving.com',
-        image: "https://pavelahomeliving.com/pavelahomeliving.com.png"
+        image: "https://chesspamungkas.com/src/assets/png/projects/pavelahomeliving.com.png"
     },
     {
         id: 3,
@@ -34,7 +34,7 @@ export const projectsData = [
         tags: ['PHP', 'WordPress', 'HTML', 'CSS', 'Javascript', 'MySQL'],
         code: 'https://github.com/chesspamungkas/realchesstate',
         demo: 'https://realchesstate1.chesspamungkas.com/',
-        image: "https://realchesstate1.chesspamungkas.com/realchesstate1.chesspamungkas.com.png"
+        image: "https://chesspamungkas.com/src/assets/png/projects/realchesstate1.chesspamungkas.com.png"
     },
 ]
 

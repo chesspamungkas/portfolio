@@ -17,7 +17,7 @@
     'JSON',
     'Laravel',
     'Lumen',
-    'MaterialUI',
+    'Material UI',
     'MongoDB',
     'MySQL',
     'Nginx',
@@ -30,14 +30,14 @@
     'React',
     'RESTAPI',
     'SASS',
-    'SQLServer',
+    'SQL Server',
     'Subversion',
     'Trello',
     'TypeScript',
     'TypeORM',
     'Ubuntu',
     'Vue',
-    'WindowsServer',
+    'Windows Server',
     'WordPress'
 ]
 
