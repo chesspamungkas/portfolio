@@ -14,7 +14,7 @@ export const projectsData = [
         projectName: 'Website Profile Catur Pamungkas',
         projectDesc: 'This is my website profile. I have a fullstack role in this website using React.js',
         tags: ['React', 'Material UI', 'HTML' ,'CSS', 'JavaScript'],
-        code: 'https://github.com/chesspamungkas/chesspamungkas.com',
+        code: '#',
         demo: 'https://chesspamungkas.com',
         image: "https://chesspamungkas.com/src/assets/png/projects/chesspamungkas.com.png"
     },
@@ -23,7 +23,7 @@ export const projectsData = [
         projectName: 'Website Pavela Home Living',
         projectDesc: 'This is a website for Pavela Home Living. I have a fullstack role in this website using PHP - Laravel Framework.',
         tags: ['PHP', 'Laravel', 'HTML', 'CSS', 'Javascript', 'MySQL'],
-        code: 'https://github.com/chesspamungkas/pavelahomeliving',
+        code: '#',
         demo: 'https://pavelahomeliving.com',
         image: "https://chesspamungkas.com/src/assets/png/projects/pavelahomeliving.com.png"
     },
@@ -32,7 +32,7 @@ export const projectsData = [
         projectName: 'Website Real Chesstate',
         projectDesc: 'This is a real estate website. I have a fullstack role in this website using PHP - WordPress.',
         tags: ['PHP', 'WordPress', 'HTML', 'CSS', 'Javascript', 'MySQL'],
-        code: 'https://github.com/chesspamungkas/realchesstate',
+        code: '#',
         demo: 'https://realchesstate1.chesspamungkas.com/',
         image: "https://chesspamungkas.com/src/assets/png/projects/realchesstate1.chesspamungkas.com.png"
     },
