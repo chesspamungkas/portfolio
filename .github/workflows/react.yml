@@ -23,22 +23,24 @@ jobs:
         - name: Install dependencies
           run: npm ci --legacy-peer-deps
 
-        - name: Run build if present
+        - name: Build project
           run: npm run build --if-present
+          env:
+            CI: false
+        
+        - name: List output files
+	        run: find build/ -print
 
     web-deploy:
       name: 🎉 Deploy
       needs: [build]
-      runs-on: ubuntu-latest
+      # runs-on: ubuntu-latest
 
       steps:
-        - name: Get latest code
-          uses: actions/checkout@v3
-
-        - name: Creating restart file
-          run: |
-            mkdir tmp && touch tmp/restart.txt 
-            echo $RANDOM > tmp/restart.txt
+        # - name: Creating restart file
+        #   run: |
+        #     mkdir tmp && touch tmp/restart.txt 
+        #     echo $RANDOM > tmp/restart.txt
 
         - name: 📂 Sync files
           uses: SamKirkland/FTP-Deploy-Action@4.3.2
@@ -46,6 +48,7 @@ jobs:
             server: ${{ secrets.FTP_HOST }}
             username: ${{ secrets.FTP_USER }}
             password: ${{ secrets.FTP_PASSWORD }}
+            local-dir: build/
             server-dir: ${{ secrets.SERVERDIR }}
             exclude: |
                 **/.github/**
