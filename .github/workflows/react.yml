@@ -8,7 +8,6 @@ on:
 jobs:   
   web-deploy:
     name: 🎉 Deploy
-    needs: [build]
     runs-on: ubuntu-latest  
     steps:
       - name: 🚚 Get latest code
@@ -24,7 +23,7 @@ jobs:
           npm install
           npm run build
           npm run test
-          
+
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
