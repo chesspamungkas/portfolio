@@ -1,53 +1,53 @@
 name: 🚀 React chesspamungkas.com CI/CD
 
 on:
-    push:
-      branches: [ "master" ]
-    pull_request:
-      branches: [ "master" ]
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
 
 jobs:
-    build:
-      name: Build
-      runs-on: ubuntu-latest
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v3
+
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+
+      - name: Build project
+        run: npm run build --if-present
+        env:
+          CI: false
       
-      steps:
-        - name: Clone repository
-          uses: actions/checkout@v3
+  web-deploy:
+    name: 🎉 Deploy
+    needs: [build]
+    runs-on: ubuntu-latest
 
-        - name: Use Node.js 16.x
-          uses: actions/setup-node@v3
-          with:
-            node-version: 16
+    steps:
+      - name: Creating restart file
+        run: |
+          mkdir tmp && touch tmp/restart.txt 
+          echo $RANDOM > tmp/restart.txt
 
-        - name: Install dependencies
-          run: npm ci --legacy-peer-deps
-
-        - name: Build project
-          run: npm run build --if-present
-          env:
-            CI: false
-        
-    web-deploy:
-      name: 🎉 Deploy
-      needs: [build]
-      runs-on: ubuntu-latest
-
-      steps:
-        - name: Creating restart file
-          run: |
-            mkdir tmp && touch tmp/restart.txt 
-            echo $RANDOM > tmp/restart.txt
-
-        - name: 📂 Sync files
-          uses: SamKirkland/FTP-Deploy-Action@4.3.2
-          with:
-            server: ${{ secrets.FTP_HOST }}
-            username: ${{ secrets.FTP_USER }}
-            password: ${{ secrets.FTP_PASSWORD }}
-            # local-dir: build/
-            server-dir: ${{ secrets.SERVERDIR }}
-            # exclude: |
-            #     **/.github/**
-            #     **/.git/**
-            #     .gitignore
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.3.2
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          # local-dir: build/
+          server-dir: ${{ secrets.SERVERDIR }}
+          # exclude: |
+          #     **/.github/**
+          #     **/.git/**
+          #     .gitignore
