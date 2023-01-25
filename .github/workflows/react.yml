@@ -28,9 +28,6 @@ jobs:
           env:
             CI: false
         
-        - name: List output files
-	        run: find build/ -print
-
     web-deploy:
       name: 🎉 Deploy
       needs: [build]
