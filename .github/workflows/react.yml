@@ -32,7 +32,7 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
           dangerous-clean-slate: true
-          local-dir: ./build/
+          local-dir: build/
     # steps:
     #   # - name: Creating restart file
     #   #   run: |
