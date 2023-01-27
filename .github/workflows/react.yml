@@ -25,14 +25,17 @@ jobs:
         env:
           CI: false
 
+      - name: List output files
+        run: find build/ -print
+
       - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
           # dangerous-clean-slate: true
-          # local-dir: build/
+          local-dir: build/
     # steps:
     #   # - name: Creating restart file
     #   #   run: |
