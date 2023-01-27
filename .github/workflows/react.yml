@@ -31,16 +31,7 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          dangerous-clean-slate: true
-
-      - name: Copy
-        uses: andstor/copycat-action@v3
-        with:
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          src_path: build/
-          dst_path: /.
-          dst_owner: chesspamungkas
-          dst_repo_name: chesspamungkas.com
+          # dangerous-clean-slate: true
           # local-dir: build/
     # steps:
     #   # - name: Creating restart file
