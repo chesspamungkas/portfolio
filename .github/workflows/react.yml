@@ -25,8 +25,8 @@ jobs:
         env:
           CI: false
 
-      - name: List output files
-        run: find build/ -print
+      # - name: List output files
+      #   run: find build/ -print
 
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
