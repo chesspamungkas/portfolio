@@ -28,6 +28,7 @@ export const projectsData = [
         code: '#',
         demo: 'https://pavelahomeliving.com',
         image: pavelahomeliving
+    },
     {
         id: 3,
         projectName: 'Website Real Chesstate',
