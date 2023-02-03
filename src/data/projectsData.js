@@ -27,8 +27,7 @@ export const projectsData = [
         tags: ['PHP', 'Laravel', 'HTML', 'CSS', 'Javascript', 'MySQL'],
         code: '#',
         demo: 'https://pavelahomeliving.com',
-        image: "https://chesspamungkas.com/src/assets/png/projects/pavelahomeliving.com.png"
-    },
+        image: pavelahomeliving
     {
         id: 3,
         projectName: 'Website Real Chesstate',
@@ -36,7 +35,7 @@ export const projectsData = [
         tags: ['PHP', 'WordPress', 'HTML', 'CSS', 'Javascript', 'MySQL'],
         code: '#',
         demo: 'https://realchesstate1.chesspamungkas.com/',
-        image: "https://chesspamungkas.com/src/assets/png/projects/realchesstate1.chesspamungkas.com.png"
+        image: realchesstate1
     },
 ]
 
