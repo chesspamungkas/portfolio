@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0cffc16f.chunk.css",
-    "main.js": "/portfolio/static/js/main.157ee38b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.157ee38b.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.84d1bd77.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.84d1bd77.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.115531c5.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.115531c5.js.map",
     "static/css/2.b183c589.chunk.css": "/portfolio/static/css/2.b183c589.chunk.css",
@@ -16,6 +16,7 @@
     "static/js/2.35cd3d06.chunk.js.LICENSE.txt": "/portfolio/static/js/2.35cd3d06.chunk.js.LICENSE.txt",
     "static/media/3657403.65f564b8.svg": "/portfolio/static/media/3657403.65f564b8.svg",
     "static/media/index.css": "/portfolio/static/media/BestermindRegular.e58a1922.ttf",
+    "static/media/Catur-Pamungkas-Photo.112c0c14.png": "/portfolio/static/media/Catur-Pamungkas-Photo.112c0c14.png",
     "static/media/adobe-xd.fa7a22d2.svg": "/portfolio/static/media/adobe-xd.fa7a22d2.svg",
     "static/media/adobeaudition.dd56aeda.svg": "/portfolio/static/media/adobeaudition.dd56aeda.svg",
     "static/media/after-effects.16f048ca.svg": "/portfolio/static/media/after-effects.16f048ca.svg",
@@ -36,6 +37,7 @@
     "static/media/c.e580cb17.svg": "/portfolio/static/media/c.e580cb17.svg",
     "static/media/canva.f1bf26da.svg": "/portfolio/static/media/canva.f1bf26da.svg",
     "static/media/capacitorjs.8fb886a5.svg": "/portfolio/static/media/capacitorjs.8fb886a5.svg",
+    "static/media/chesspamungkas.com.d0178dff.png": "/portfolio/static/media/chesspamungkas.com.d0178dff.png",
     "static/media/codeigniter.edfac06b.svg": "/portfolio/static/media/codeigniter.edfac06b.svg",
     "static/media/coffeescript.51d09441.svg": "/portfolio/static/media/coffeescript.51d09441.svg",
     "static/media/contacts.317ed4be.svg": "/portfolio/static/media/contacts.317ed4be.svg",
@@ -121,6 +123,7 @@
     "static/media/opencv.36d7c202.svg": "/portfolio/static/media/opencv.36d7c202.svg",
     "static/media/orangeTheme-boy.cc7bd962.svg": "/portfolio/static/media/orangeTheme-boy.cc7bd962.svg",
     "static/media/orangeTheme-girl.af6ec93a.svg": "/portfolio/static/media/orangeTheme-girl.af6ec93a.svg",
+    "static/media/pavelahomeliving.com.b1dbfb36.png": "/portfolio/static/media/pavelahomeliving.com.b1dbfb36.png",
     "static/media/photoshop.6576d308.svg": "/portfolio/static/media/photoshop.6576d308.svg",
     "static/media/php.808faf65.svg": "/portfolio/static/media/php.808faf65.svg",
     "static/media/picsart.e849dc91.svg": "/portfolio/static/media/picsart.e849dc91.svg",
@@ -135,6 +138,7 @@
     "static/media/python.09347921.svg": "/portfolio/static/media/python.09347921.svg",
     "static/media/pytorch.e6c50599.svg": "/portfolio/static/media/pytorch.e6c50599.svg",
     "static/media/react.c3a0b34a.svg": "/portfolio/static/media/react.c3a0b34a.svg",
+    "static/media/realchesstate1.chesspamungkas.com.aaaf46e5.png": "/portfolio/static/media/realchesstate1.chesspamungkas.com.aaaf46e5.png",
     "static/media/redTheme-boy.74f6dfaa.svg": "/portfolio/static/media/redTheme-boy.74f6dfaa.svg",
     "static/media/redTheme-girl.e2b9dd83.svg": "/portfolio/static/media/redTheme-girl.e2b9dd83.svg",
     "static/media/restapi.d863627a.svg": "/portfolio/static/media/restapi.d863627a.svg",
@@ -175,6 +179,6 @@
     "static/css/2.b183c589.chunk.css",
     "static/js/2.35cd3d06.chunk.js",
     "static/css/main.0cffc16f.chunk.css",
-    "static/js/main.157ee38b.chunk.js"
+    "static/js/main.84d1bd77.chunk.js"
   ]
 }
