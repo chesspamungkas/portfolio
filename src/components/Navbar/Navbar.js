@@ -183,7 +183,7 @@ function Navbar() {
                     <div className='navLink--container'>
                         <Fade left>
                             <NavLink
-                                to='/'
+                                to='/portfolio/'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -201,7 +201,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#about'
+                                to='/portfolio/#about'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -235,7 +235,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#skills'
+                                to='/portfolio/#skills'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -253,7 +253,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#projects'
+                                to='/portfolio/#projects'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -271,7 +271,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#contacts'
+                                to='/portfolio/#contacts'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}

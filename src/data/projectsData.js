@@ -6,7 +6,9 @@ import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
-
+import chesspamungkas from '../assets/png/projects/chesspamungkas.com.png'
+import pavelahomeliving from '../assets/png/projects/pavelahomeliving.com.png'
+import realchesstate1 from '../assets/png/projects/realchesstate1.chesspamungkas.com.png'
 
 export const projectsData = [
     {
@@ -15,8 +17,8 @@ export const projectsData = [
         projectDesc: 'This is my website profile. I have a fullstack role in this website using React.js',
         tags: ['React', 'Material UI', 'HTML' ,'CSS', 'JavaScript'],
         code: '#',
-        demo: 'https://chesspamungkas.com',
-        image: "https://chesspamungkas.com/src/assets/png/projects/chesspamungkas.com.png"
+        demo: 'https://chesspamungkas.github.io/portfolio',
+        image: chesspamungkas
     },
     {
         id: 2,
